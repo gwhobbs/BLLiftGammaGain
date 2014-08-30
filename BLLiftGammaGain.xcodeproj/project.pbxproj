@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B7F58219841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B7F58119841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.h */; };
+		55B7F58419841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7F58319841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.m */; };
+		55B7F58619841D8900F82AA9 /* BLLiftGammaGainFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B7F58519841D8900F82AA9 /* BLLiftGammaGainFilter.h */; };
+		55B7F58819841D8900F82AA9 /* BLLiftGammaGainFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B7F58719841D8900F82AA9 /* BLLiftGammaGainFilter.m */; };
+		55B7F58A19841D8900F82AA9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 55B7F58919841D8900F82AA9 /* index.html */; };
+		55B7F58C19841D8900F82AA9 /* Description.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B7F58B19841D8900F82AA9 /* Description.plist */; };
+		55B7F58F19841D8900F82AA9 /* Description.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B7F58D19841D8900F82AA9 /* Description.strings */; };
+		55B7F59119841D8900F82AA9 /* BLLiftGammaGainFilterKernel.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 55B7F59019841D8900F82AA9 /* BLLiftGammaGainFilterKernel.cikernel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55B7F57C19841D8900F82AA9 /* BLLiftGammaGain.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLLiftGammaGain.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B7F58019841D8900F82AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B7F58119841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLLiftGammaGainPlugInLoader.h; sourceTree = "<group>"; };
+		55B7F58319841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLLiftGammaGainPlugInLoader.m; sourceTree = "<group>"; };
+		55B7F58519841D8900F82AA9 /* BLLiftGammaGainFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLLiftGammaGainFilter.h; sourceTree = "<group>"; };
+		55B7F58719841D8900F82AA9 /* BLLiftGammaGainFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLLiftGammaGainFilter.m; sourceTree = "<group>"; };
+		55B7F58919841D8900F82AA9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		55B7F58B19841D8900F82AA9 /* Description.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Description.plist; sourceTree = "<group>"; };
+		55B7F58E19841D8900F82AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Description.strings; sourceTree = "<group>"; };
+		55B7F59019841D8900F82AA9 /* BLLiftGammaGainFilterKernel.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = BLLiftGammaGainFilterKernel.cikernel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B7F57819841D8900F82AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B7F57219841D8900F82AA9 = {
+			isa = PBXGroup;
+			children = (
+				55B7F57E19841D8900F82AA9 /* BLLiftGammaGain */,
+				55B7F57D19841D8900F82AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B7F57D19841D8900F82AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B7F57C19841D8900F82AA9 /* BLLiftGammaGain.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B7F57E19841D8900F82AA9 /* BLLiftGammaGain */ = {
+			isa = PBXGroup;
+			children = (
+				55B7F58119841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.h */,
+				55B7F58319841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.m */,
+				55B7F58519841D8900F82AA9 /* BLLiftGammaGainFilter.h */,
+				55B7F58719841D8900F82AA9 /* BLLiftGammaGainFilter.m */,
+				55B7F58919841D8900F82AA9 /* index.html */,
+				55B7F58B19841D8900F82AA9 /* Description.plist */,
+				55B7F58D19841D8900F82AA9 /* Description.strings */,
+				55B7F59019841D8900F82AA9 /* BLLiftGammaGainFilterKernel.cikernel */,
+				55B7F57F19841D8900F82AA9 /* Supporting Files */,
+			);
+			path = BLLiftGammaGain;
+			sourceTree = "<group>";
+		};
+		55B7F57F19841D8900F82AA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B7F58019841D8900F82AA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55B7F57919841D8900F82AA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7F58619841D8900F82AA9 /* BLLiftGammaGainFilter.h in Headers */,
+				55B7F58219841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55B7F57B19841D8900F82AA9 /* BLLiftGammaGain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B7F59419841D8900F82AA9 /* Build configuration list for PBXNativeTarget "BLLiftGammaGain" */;
+			buildPhases = (
+				55B7F57719841D8900F82AA9 /* Sources */,
+				55B7F57819841D8900F82AA9 /* Frameworks */,
+				55B7F57919841D8900F82AA9 /* Headers */,
+				55B7F57A19841D8900F82AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLLiftGammaGain;
+			productName = BLLiftGammaGain;
+			productReference = 55B7F57C19841D8900F82AA9 /* BLLiftGammaGain.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B7F57319841D8900F82AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Grant Hobbs";
+				TargetAttributes = {
+					55B7F57B19841D8900F82AA9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 55B7F57619841D8900F82AA9 /* Build configuration list for PBXProject "BLLiftGammaGain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55B7F57219841D8900F82AA9;
+			productRefGroup = 55B7F57D19841D8900F82AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B7F57B19841D8900F82AA9 /* BLLiftGammaGain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B7F57A19841D8900F82AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7F58F19841D8900F82AA9 /* Description.strings in Resources */,
+				55B7F59119841D8900F82AA9 /* BLLiftGammaGainFilterKernel.cikernel in Resources */,
+				55B7F58A19841D8900F82AA9 /* index.html in Resources */,
+				55B7F58C19841D8900F82AA9 /* Description.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B7F57719841D8900F82AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7F58419841D8900F82AA9 /* BLLiftGammaGainPlugInLoader.m in Sources */,
+				55B7F58819841D8900F82AA9 /* BLLiftGammaGainFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55B7F58D19841D8900F82AA9 /* Description.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B7F58E19841D8900F82AA9 /* en */,
+			);
+			name = Description.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B7F59219841D8900F82AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55B7F59319841D8900F82AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55B7F59519841D8900F82AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLLiftGammaGain/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Image Units";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		55B7F59619841D8900F82AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLLiftGammaGain/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Image Units";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B7F57619841D8900F82AA9 /* Build configuration list for PBXProject "BLLiftGammaGain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7F59219841D8900F82AA9 /* Debug */,
+				55B7F59319841D8900F82AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B7F59419841D8900F82AA9 /* Build configuration list for PBXNativeTarget "BLLiftGammaGain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B7F59519841D8900F82AA9 /* Debug */,
+				55B7F59619841D8900F82AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B7F57319841D8900F82AA9 /* Project object */;
+}

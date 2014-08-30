@@ -1,0 +1,10 @@
+kernel vec4 coreImageKernel(sampler image, __color liftColor, __color gammaColor, __color gainColor)
+{
+	__color inputColor = sample(image, samplerCoord(image));
+	
+	__color preGamma = (1.0, (gainColor*(inputColor+liftColor*(1.0-inputColor))));
+	
+	__color postGamma = pow(preGamma, 1.0 - gammaColor);
+	
+	return postGamma;
+}
